@@ -1,0 +1,16 @@
+name: NexusMap
+version: 0.2.2
+main: com.nexusuniverse.map.NexusMapPlugin
+api-version: '1.21'
+author: NexusUniverse
+
+commands:
+  nexusmap:
+    description: Give the server map and manage points of interest.
+    usage: /nexusmap <give|addpoi|removepoi|listpoi|refresh>
+    aliases: [nmap]
+
+permissions:
+  nexusmap.admin:
+    description: Can manage points of interest and force refreshes.
+    default: op
